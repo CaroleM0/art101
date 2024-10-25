@@ -11,7 +11,7 @@ myMainRide = {
   model: "Corolla",
   color: "rusty",
   year: 2011,
-  age: function() {
+  age: function () {
       return 2024 - this.year;
   }
 }
