@@ -20,7 +20,7 @@ function sortUserName() {
     return nameSorted;
 }
 
+
 // ouput
 document.writeln("Oh hey, I've finxed your name:",
     sortUserName(,"</br");
-)
