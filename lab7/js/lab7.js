@@ -13,7 +13,7 @@ function sortUserName() {
 
     // sort the array
     var nameArraySort = nameArray.sort();
-    console.log("nameAarraysort =", nameArraysort);
+    console.log("nameAarraysort =", nameArraySort);
 
     // join array back to a string
     var nameSorted = nameArraySort.join('');
