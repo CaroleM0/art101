@@ -26,5 +26,5 @@ function sortUserName() {
 
 
 // ouput
-document.writeln("Oh hey, Can I have your name?:",
+document.writeln("Oh hey, your sortnname:",
         sortUserName(),"</br");
