@@ -1,20 +1,26 @@
 // Author: Kaiqing Mo
 // Date:10/28/2024
 
+// sortUserName - a function that takes user inut and sort the letters
+// of their name
 function sortUserName() {
-    // Prompt the user to enter their name
-    let userName = window.prompt("Please enter your name:");
-  
-    // Check if user input is not empty or null
-    if (userName) {
-      // Convert the string into an array, sort it, and then join it back into a string
-      let sortedName = userName.split('').sort().join('');
-      return sortedName;
-    } else {
-      return "No name entered.";
-    }
-  }
-  
-  // Call the function and output the result using document.writeln()
-  document.writeln("Your sorted name is: " + sortUserName());
-  
+    var userName = window.prompt("Hi. Please tell me your name so I can finx it.");
+    console.log("userName =", userName);
+    // split string to array
+    var nameArray = userName.split('');
+    console.log("nameArray =", nameArray);
+        // sort the array
+        var nameArraySort = nameArray.sort();
+        console.log("nameAarraysort =", nameArraysort);
+        // join array back to a string
+        var nameSorted = nameArraySort.join('');
+        console.log("nameSorted =", nameSorted);
+        // Note that I chould have done the above lines as a single line:
+        //   userName.toLower().split("").sort().join("")
+        return nameSorted;
+}
+
+
+// ouput
+document.writeln("Oh hey, I've finxed your name:",
+        sortUserName(,"</br");
