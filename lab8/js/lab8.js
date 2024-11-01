@@ -21,3 +21,9 @@ var result = array.map(function(x){
 })
 // should return [10, 9, 2, 4, 6.48074069840786, 12, 100]
 console.log("Squareroot of array:", result);
+
+// Your map results data
+var mapResults = 10, 9, 2, 4, 6.48074069840786, 12, 100;
+
+// Use jQuery to select the element by its ID and set the HTML content
+$("#output").html(mapResults);
