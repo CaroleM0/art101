@@ -49,3 +49,7 @@ function anagram(inputString) {
        // append a new div to our output div
        $("#output").html('<div class="name-results">' + newName + '</div>');
    });
+
+   // ouput
+document.writeln("",
+    sortUserName(),"</br");
